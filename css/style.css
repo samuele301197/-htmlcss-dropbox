@@ -1,0 +1,57 @@
+/* RESET */ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+/* FINE RESET */
+
+.header{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.col{
+    border: 1px solid black;
+    height: 100px;
+}
+
+.col-1{
+    display: flex;
+    text-align: center;
+
+}
+
+.col-alone{
+    justify-content: center;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 48px;
+}
