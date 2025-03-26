@@ -28,30 +28,38 @@ img{
 .flex{
     display: flex;
     justify-content: space-between;
-
-}
-
-ul{
-    list-style: none;
-    display: flex;
 }
 
 .col{
     border: 1px solid black;
     height: 100px;
-}
-
-.col-1{
-    display: flex;
     text-align: center;
-
+    margin: 10px;
 }
 
-.col-alone{
-    justify-content: center;
+.col-30{
+    width: 30%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-100{
+width: 100%;
 }
 
 .main-title{
     text-align: center;
     font-size: 48px;
+}
+
+.hero{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.nav{
+    margin-left: 10px;
+    margin-right: 10px;
 }
