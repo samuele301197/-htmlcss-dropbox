@@ -4,7 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-size: 2.5rem;
 }
 
 img{
@@ -15,9 +19,34 @@ img{
 
 .header{
     width: 100%;
-    position: relative;
     height: 80px;
 }
+
+.center{
+    text-align: center;
+}
+
+.top-30{
+    margin-top: 30px;
+}
+
+.bot-30{
+    margin-bottom: 30px;
+}
+
+.sep-30{
+width: 30%;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.block{
+    display: block;
+}
+
 
 .object{
     object-fit: cover;
@@ -32,16 +61,16 @@ img{
     max-width: 1000px;
     margin: 0 auto;
     border: 1px solid black;
-    display: flex;
-    justify-content: center;
 }
 
-.container-no-flex{
-    width: 80%;
+.c-small{
+   height: 10px;
     max-width: 1000px;
     margin: 0 auto;
     border: 1px solid black;
 }
+
+
 
 .w-100 {
     width: 100%;
@@ -54,22 +83,41 @@ img{
 a{
     text-decoration: none;
     margin: 10px;
+}
+
+.dark{
     color: black;
+}
+
+.ora{
+    text-decoration: underline;
 }
 
 .flex{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.pos{
-position: absolute;
-top: 0;
-right: 0;
+.nav-left{
+    display: flex;
+    list-style: none;
+    align-items: center;
 }
 
+.nav-right{
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
 .col{
-    border: 1px solid black;
+    border: 1px solid gray;
     min-height: 100px;
+}
+
+.col-1000{
+    height: 1000px;
 }
 
 .col-30{
@@ -86,7 +134,7 @@ width: 100%;
 
 .main-title{
     text-align: center;
-    font-size: 48px;
+    font-size: 3.5rem;
     margin-bottom: 30px;
 }
 
@@ -116,4 +164,27 @@ width: 100%;
     background-color: #034d97;
     color: white;
     padding: 5px;
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px solid blue;
+}
+
+.wheel{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid gray;
+    margin-left: 20px;
+}
+
+
+:root{
+    --fa-li-width:var(--fa-li-width: 1px)
+
 }

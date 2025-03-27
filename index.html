@@ -5,32 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
     <title>Dropbox</title>
 </head>
 <body>
-    <header class="header">
-        <section>
-            <div class="flex gap-10">
-               <div class="col m-30"><img src="./img/logo-small.png" alt="logo"></div>
-               <nav class="col m-30">
-                <a href="">Perchè Dropbox</a>
-                <a href="">Funzioni</a>
-                <a href="">Piani e Prezzi</a>
-               </nav>
+    <header class="header flex">
+               <nav class="nav-left">
+                <img class="block" src="./img/logo-small.png" alt="logo">
+                <ul class="flex">
+                <li><a class="dark" href="">Perchè Dropbox</a></li>
+                <li><a class="dark" href="">Funzioni</a></li>
+                <li><a class="dark" href="">Piani e Prezzi</a></li>
+                </ul>
+            </nav>
             
              
             
-                <div class="col m-30 pos">
-                    <a href="">Supporto</a>
-                    <a href="">Contatti</a>
-                    <a href="">Accedi</a>
-                <a class="col button" href="">Inizia</a> 
-            </div>
-            </div>  
-       
-            
-        </section>
+                <nav class="nav-right">
+                    <ul class="flex">
+                        <li><a class="dark" href="">Supporto</a></li>
+                        <li><a class="dark" href="">Contatti</a></li>
+                        <li><a class="dark" href="">Accedi</a></li>
+                        <li><a class="col button" href="">Inizia</a></li>
+                    </ul>                
+                </nav>  
     </header>
 <main>
     <section class="hero">
@@ -61,13 +58,97 @@
         </section>
     </section>
 
-        <section class="section-2">
-            <h2></h2>
-            <div class="container">
-             <div class="col col-30"></div>
-             <div class="col col-30"></div>
-             <div class="col col-30"></div>
+    <section class="section-2">
+        <div class="container">
+                <h2 class="top-30">Trova il piano buisness che fa per te</h2>
+                    <div class="top-30">
+                        <button class="circle"></button> <span>Fatturazione mensile</span>
+                        <button class="wheel"></button> <span>Fatturazione annuale</span>  
+                    </div>    
+                <div class="flex m-30">
+                    <div class="col col-1000 col-30">
+                        <div class="center">
+                            <i class="fa-solid fa-user fa-1x"></i><span>Singolo</span> <hr>
+                        </div>
+                        <div class="container">
+                            <h3 class="top-30">Professional</h3>
+                            <p class="top-30"><strong>&euro;12.00</strong></p>
+                            <p class="top-30">/mese</p>
+                        </div> 
+                        <div class="container top-30">
+                            <div class="top-30"><i class="fa-solid fa-user fa-1x"></i><span> 1 utente</span></div>
+                            <div class="top-30"><i class="fa-solid fa-folder fa-1x"></i><span> 5 TB di spazio di archiviazione sicuro</span></div>
+                            <div class="top-30"><i class="fa-solid fa-share-nodes fa-1x"></i> Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                            <div class="top-30"><button><a class="button" href="">Prova gratis per 30 giorni</a></button></div>
+                            <div class="top-30 bot-30"><span>oppure <a class="ora" href="">acquista ora</a></span></div>
+                            <hr class="sep-30">
+                            <div class="top-30">
+                                <ul class="top-30">
+                                    <li class="top-30"><strong>Punti salienti del piano</strong></li>
+                                    <li class="top-30"><span style="color: dodgerblue;"><i class="fa-solid fa-check fa-1x"></i></span> Invia file fino a 100 GB con Dropbox Transfert</li>
+                                    <li class="top-30"><span style="color: dodgerblue;"><i class="fa-solid fa-check fa-1x"></i></span> Cartelle offline su dispositivi mobili.</li>
+                                </ul>
+                            </div>
+                        </div>           
+                    </div>                 
+                <div class="col col-1000 col-30">
+                    <div class="center">
+                        <i class="fa-solid fa-users fa-1x"></i><span>Team</span> <hr>
+                    </div>
+                    <div class="container">
+                        <h3 class="top-30">Advanced</h3>
+                        <p class="top-30"><strong>&euro;18.00</strong></p>
+                        <p class="top-30">/mese</p>
+                    </div> 
+                    <div class="container top-30">
+                        <div class="top-30"><i class="fa-solid fa-users fa-1x"></i><span> 3 o più utenti</span></div>
+                        <div class="top-30"><i class="fa-solid fa-folder fa-1x"></i><span> tutto lo spazio di cui ha bisogno il tuo team</span></div>
+                        <div class="top-30"><i class="fa-solid fa-share-nodes fa-1x"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</div>
+                        <div class="top-30"><button><a class="button" href="">Prova gratis per 30 giorni</a></button></div>
+                        <div class="top-30 bot-30"><span>oppure <a class="ora" href="">acquista ora</a></span></div>
+                        <hr class="sep-30">
+                        <div class="top-30">
+                            <ul class="top-30">
+                                <li class="top-30"><strong>Punti salienti del piano</strong></li>
+                                <li class="top-30"><span style="color: dodgerblue;"><i class="fa-solid fa-check fa-1x"></i></span> Invia file fino a 100 GB con Dropbox Transfert</li>
+                                <li class="top-30"><span style="color: dodgerblue;"><i class="fa-solid fa-check fa-1x"></i></span> Cartelle offline su dispositivi mobili.</li>
+                                <li class="top-30"><span style="color: dodgerblue;"><i class="fa-solid fa-check fa-1x"></i></span> Cartelle offline su dispositivi mobili.</li>
+                                <li class="top-30"><span style="color: dodgerblue;"><i class="fa-solid fa-check fa-1x"></i></span> Cartelle offline su dispositivi mobili.</li>
+                                <li class="top-30"><span style="color: dodgerblue;"><i class="fa-solid fa-check fa-1x"></i></span> Cartelle offline su dispositivi mobili.</li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col col-1000 col-30">
+                    <div class="center">
+                        <i class="fa-solid fa-building fa-1x"></i><span>Azienda</span> <hr>
+                    </div>
+                    <div class="container">
+                        <h3 class="top-30">Enterprise</h3>
+                        <p class="top-30"><strong>&euro;Contattaci</strong></p>
+                        <p class="top-30">-</p>
+                    </div> 
+                    <div class="container top-30">
+                        <div class="top-30"><i class="fa-solid fa-users fa-1x"></i><span> 10 o più utenti</span></div>
+                        <div class="top-30"><i class="fa-solid fa-folder fa-1x"></i><span> Soluzioni personalizzabili per la tua azienda</span></div>
+                        <div class="top-30"><i class="fa-solid fa-share-nodes fa-1x"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</div>
+                        <div class="top-30"><button><a class="button" href="">Contattaci</a></button></div>
+                        <div class="top-30 bot-30"><span>oppure <a class="ora" href="">acquista ora</a></span></div>
+                        <hr class="sep-30">
+                        <div class="top-30">
+                            <ul class="top-30">
+                                <li class="top-30"><strong>Punti salienti del piano</strong></li>
+                                <li class="top-30"><span style="color: dodgerblue;"><i class="fa-solid fa-check fa-1x"></i></span> Invia file fino a 100 GB con Dropbox Transfert</li>
+                                <li class="top-30"><span style="color: dodgerblue;"><i class="fa-solid fa-check fa-1x"></i></span> Cartelle offline su dispositivi mobili.</li>
+                                <li class="top-30"><span style="color: dodgerblue;"><i class="fa-solid fa-check fa-1x"></i></span> Cartelle offline su dispositivi mobili.</li>
+                            
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
             </div>
+        </div>          
+    </div>
             <div class="container">
                 <div class="col col-100"></div>
             </div>
@@ -88,7 +169,7 @@
                     <div class="col column"></div>
                 </div>
             </div>
-            <div class="container-no-flex">
+            <div class="container">
                 <div class="col col-70"></div>
                 <div class="col col-30">
                     <a href="">link</a>
@@ -97,7 +178,7 @@
         </section>
     </main>
     <footer class="footer">
-        <section class="container gap-10">
+        <section class="container flex gap-10">
                 <div class="col column-2"></div>
                 <div class="col column-2"></div>
                 <div class="col column-2"></div>
